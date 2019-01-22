@@ -1,0 +1,18 @@
+{
+	"name": "ZachSmith",
+	"description": "My Digital Resume",
+	"version": "1.0",
+	"devDependencies": {
+		"bootstrap-sass": "^3.3.7",
+		"gulp": "^4.0.0",
+		"gulp-clean-css": "*",
+		"gulp-sass": "*",
+		"gulp-rename": "*",
+		"gulp-header": "*",
+		"gulp-autoprefixer": "*"
+	},
+	"engine": {
+		"node": "10.15.0",
+		"npm": "6.4.1"
+	}
+}

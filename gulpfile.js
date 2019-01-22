@@ -1,9 +1,10 @@
-let gulp = require('gulp');
-let cleanCSS = require('gulp-clean-css');
+var gulp = require('gulp');
+var cleanCSS = require('gulp-clean-css');
 var sass = require('gulp-sass');
 var rename = require("gulp-rename");
 var header = require('gulp-header');
 var autoprefixer = require('gulp-autoprefixer');
+var pkg = require('./package.json');
 
 // Compile SCSS
 gulp.task('sass', function() {
@@ -35,4 +36,4 @@ gulp.task('minify-css', () => {
     .pipe(gulp.dest('./css'))
 });
 
-gulp.task('develop', gulp.series('sass', 'minify-css'))
+gulp.task('develop', gulp.series('sass', 'minify-css'));
