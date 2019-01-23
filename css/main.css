@@ -4,10 +4,81 @@ nav .navbar-brand .img-profile {
   border: 0.2rem solid rgba(255, 255, 255, 0.2);
 }
 
+nav .social-icons {
+  margin-right: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+  width: 70%;
+}
+
 .container-fluid section.resume-section {
   min-height: 100vh;
+  padding-top: 5.5rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .container-fluid section.resume-section .my-auto {
   margin-top: 10rem !important;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 992px) {
+  .container-fluid section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  .dn-l {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .dn-m {
+    display: none;
+  }
+  .social-icons a {
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2rem;
+  }
 }
