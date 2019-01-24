@@ -1,3 +1,16 @@
+//overriding BS4
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: $darkgrey;
+	border-color: $darkgrey;
+}
+
+
+//global styling
 h1,
 h2,
 h3,
@@ -7,7 +20,7 @@ h6 {
   @include heading-font;
   font-weight: 700;
   text-transform: uppercase;
-  color: $gray-800;
+  color: $darkgrey;
 }
 
 h1 {
@@ -18,7 +31,6 @@ h1 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
-  width: 70%;
 }
 
 .container-fluid {
@@ -60,6 +72,9 @@ p.lead {
 	  section.resume-section {
 	    padding-top: 3rem !important;
 	    padding-bottom: 3rem !important;
+	  }
+	  p.lead {
+	  	width: 70%;
 	  }
 	}
 	.dn-l {
