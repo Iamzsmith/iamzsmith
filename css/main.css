@@ -22,6 +22,10 @@ nav .nav-link {
   border-color: #4e5156;
 }
 
+.text-primary {
+  color: #0f2a2b !important;
+}
+
 h1,
 h2,
 h3,
@@ -39,19 +43,38 @@ h1 {
   line-height: 5.5rem;
 }
 
+h2 {
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
 }
 
-.container-fluid section.resume-section {
+.container-fluid section {
   min-height: 100vh;
   padding-top: 5.5rem !important;
   padding-bottom: 5rem !important;
 }
 
-.container-fluid section.resume-section .my-auto {
+.container-fluid section .my-auto {
   margin-top: 10rem !important;
+}
+
+.container-fluid section .resume-item .school-logo {
+  max-width: 6rem;
+  max-height: 6rem;
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+}
+
+.container-fluid section .resume-item .subheading {
+  color: #868e96;
+}
+
+.container-fluid section .dev-icons {
+  font-size: 2.5rem;
 }
 
 .social-icons a {
@@ -75,8 +98,45 @@ p.lead {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+
 @media (min-width: 992px) {
-  .container-fluid section.resume-section {
+  .container-fluid section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
@@ -96,5 +156,8 @@ p.lead {
     height: 2.5rem;
     width: 2.5rem;
     line-height: 2rem;
+  }
+  .container-fluid section .my-auto {
+    margin-top: 5rem !important;
   }
 }
