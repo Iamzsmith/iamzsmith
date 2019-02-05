@@ -14,5 +14,8 @@
 	"engine": {
 		"node": "10.15.0",
 		"npm": "6.4.1"
+	},
+	"dependencies": {
+		"liquid-node": "^3.0.0"
 	}
 }
