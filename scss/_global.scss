@@ -45,16 +45,14 @@ p.lead {
 .container-fluid {
   section {
     min-height: 100vh;
-    padding-top: 5.5rem !important;
-  	padding-bottom: 5rem !important;
     .my-auto {
       margin-top: 10rem !important;
     }
     .resume-item{
     	.school-logo {
     		max-width: 6rem;
-			max-height: 6rem;
-			border: .2rem solid rgba(255,255,255,.2);
+			 max-height: 6rem;
+			 border: .2rem solid rgba(255,255,255,.2);
     	}
     	.subheading {color: $gray-600;}
     }
@@ -150,8 +148,8 @@ p.lead {
 	.social-icons {
 		a {
 			height: 2.5rem;
-    		width: 2.5rem;
-    		line-height: 2rem;
+    	width: 2.5rem;
+    	line-height: 2rem;
 		}
 	}	
 	.container-fluid {

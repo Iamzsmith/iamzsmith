@@ -55,8 +55,6 @@ p.lead {
 
 .container-fluid section {
   min-height: 100vh;
-  padding-top: 5.5rem !important;
-  padding-bottom: 5rem !important;
 }
 
 .container-fluid section .my-auto {
@@ -143,6 +141,9 @@ p.lead {
   .container-fluid section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+  }
+  .container-fluid .last-0 {
+    padding-bottom: 0rem !important;
   }
   .container-fluid p.lead {
     width: 70%;

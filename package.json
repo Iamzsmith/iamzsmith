@@ -5,11 +5,12 @@
 	"devDependencies": {
 		"bootstrap-sass": "^3.3.7",
 		"gulp": "^4.0.0",
+		"gulp-autoprefixer": "*",
 		"gulp-clean-css": "*",
-		"gulp-sass": "*",
-		"gulp-rename": "*",
 		"gulp-header": "*",
-		"gulp-autoprefixer": "*"
+		"gulp-rename": "*",
+		"gulp-sass": "*",
+		"gulp-uglify": "^3.0.1"
 	},
 	"engine": {
 		"node": "10.15.0",
