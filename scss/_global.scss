@@ -118,11 +118,6 @@ p.lead {
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
 }
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
-}
-
 
 
 //media querries
@@ -139,6 +134,9 @@ p.lead {
 	.dn-l {
 		display: none;
 	}
+  #return-to-top:hover i {
+    top: 5px;
+  }
 }
 
 @media (max-width: 991px) {

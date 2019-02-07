@@ -132,11 +132,6 @@ p.lead {
   background: rgba(0, 0, 0, 0.9);
 }
 
-#return-to-top:hover i {
-  color: #fff;
-  top: 5px;
-}
-
 @media (min-width: 992px) {
   .container-fluid section {
     padding-top: 3rem !important;
@@ -147,6 +142,9 @@ p.lead {
   }
   .dn-l {
     display: none;
+  }
+  #return-to-top:hover i {
+    top: 5px;
   }
 }
 
