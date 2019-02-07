@@ -142,9 +142,6 @@ p.lead {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-  .container-fluid .last-0 {
-    padding-bottom: 0rem !important;
-  }
   .container-fluid p.lead {
     width: 70%;
   }
